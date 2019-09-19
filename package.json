@@ -2,7 +2,7 @@
   "name": "backendfaceapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "start": "nodemon server.js"
   },
