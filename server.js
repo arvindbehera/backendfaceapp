@@ -12,10 +12,9 @@ const image = require('./controllers/image');
 const db = knex({
   client: "pg",
   connection: {
-    host: "postgresql-crystalline-51414",
-    user: "postgres",
-    password: "",
-    database: "faceapp"
+    // host: "postgresql-crystalline-51414",
+    connectionString: process.env.DATABASE_URL,
+    ssl: true
   }
 });
 
