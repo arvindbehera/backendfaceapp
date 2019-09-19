@@ -19,5 +19,13 @@
     "express": "^4.17.1",
     "knex": "^0.19.4",
     "pg": "^7.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arvindbehera/backendfaceapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arvindbehera/backendfaceapp/issues"
+  },
+  "homepage": "https://github.com/arvindbehera/backendfaceapp#readme"
 }
